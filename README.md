@@ -23,7 +23,9 @@ defaultString = 'Edw grafete to keimeno gia anagnwsi!!!';%xwros ston opoio o xrh
 keimeno = inputdlg(userPrompt, titleBar, 10, {defaultString});
 
 if isempty(keimeno)
+  
   return;
+
 end; % an patisei to cancel kleise to parathyro kai telos programmatos.
 
 keimeno = char(keimeno); % kanei thn metatropi apo kelia se keimeno string.
