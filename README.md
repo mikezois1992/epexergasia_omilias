@@ -12,7 +12,7 @@ Michael :-)
 
 **###CODE###**
 
-function anagnwsi(keimeno,omilia)
+%function anagnwsi(keimeno,omilia)
 
 userPrompt = 'Grapste ti thelete na pei o ypologisths parakalw!!!'; %mhnyma sthn arxi toy parathyrou
 
@@ -37,3 +37,5 @@ omilia = System.Speech.Synthesis.SpeechSynthesizer; %fortwnw sti metavliti omili
 omilia.Volume = 100; %thetw entasi =100
 
 omilia.Rate = 0; % thetw taxythta omilias= 0 , to 0 einai default timi gia kanoniki taxythta
+
+Speak(omilia, keimeno);
